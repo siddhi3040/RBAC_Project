@@ -1,0 +1,70 @@
+# ======================================
+# Spring Boot / Maven
+# ======================================
+
+Backend/target/
+Backend/.mvn/
+Backend/logs/
+Backend/*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# ======================================
+# Java
+# ======================================
+
+*.class
+*.jar
+*.war
+*.ear
+
+# ======================================
+# Frontend (Vite + Node)
+# ======================================
+
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.vite/
+
+# Logs
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+
+# ======================================
+# Environment Files
+# ======================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+Backend/.env
+
+# ======================================
+# OS Files
+# ======================================
+
+.DS_Store
+Thumbs.db
+
+# ======================================
+# Temporary Files
+# ======================================
+
+*.tmp
+*.temp
+*.swp
